@@ -8,6 +8,7 @@ It's released under a [Creative Commons Attribution-ShareAlike 3.0 International
 Background photo taken by Phil Ewels, showing lake Vättern in Sweden on a Midsummer night in 2014.
 
 > Credits:
+>
 >* html5up.net _Identity_ Site Theme
 >* [David Walsh](https://davidwalsh.name/css-flip) for his Flipping animation
 >* [Font Awesome](fortawesome.github.com/Font-Awesome)
