@@ -2,10 +2,9 @@
 
 The repository holds the code used on my mini-website [derbyshire.nl](http://derbyshire.nl).
 
-Feel free to use any of this code as you wish.
-It's released under a [Creative Commons Attribution-ShareAlike 3.0 International License](http://creativecommons.org/licenses/by/3.0/).
+Feel free to use any of this code as you wish. It's released under a [Creative Commons Attribution-ShareAlike 3.0 International License](http://creativecommons.org/licenses/by/3.0/).
 
-Background photo taken by Phil Ewels, showing lake Vättern in Sweden on a Midsummer night in 2014.
+Background photo is from a fishing trip to Crévéchamps, France in August 2019.
 
 > Credits:
 >
