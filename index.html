@@ -91,26 +91,22 @@
 
                 <section id="contact" style="display:none;">
                     <h2>Get In Touch</h2>
-                    <form method="post" action="mail.php" id="contactform">
-                        <div class="field">
-                            <input type="text" name="name" id="name" placeholder="Name" required="required" />
-                        </div>
-                        <div class="field">
-                            <input type="email" name="email" id="email" placeholder="Email" required="required" />
-                        </div>
-                        <div class="field">
-                            <textarea name="message" id="message" placeholder="Message" rows="3"
-                                required="required"></textarea>
-                        </div>
-                        <div class="field">
-                            <div class="g-recaptcha" data-theme="light"
-                                data-sitekey="6Lev7a4aAAAAAPqycK-or2twQqdWSMOd0GQ6-Gal"></div>
-                        </div>
-                        <ul class="actions">
-                            <li><a href="#" class="button flipper">Back</a></li>
-                            <li><button type="submit" id="contact_submit">Send</button></li>
-                        </ul>
+
+                    <form action="https://formspree.io/f/xpzkwlbj" method="POST">
+                        <label>
+                            Your email:
+                            <input type="email" name="_replyto">
+                        </label>
+                        <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                        </label>
+
+                        <!-- your other form fields go here -->
+
+                        <button type="submit">Send</button>
                     </form>
+
                 </section>
             </div>
         </div>
