@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
   Site design based on:
     ==========================
@@ -9,117 +9,154 @@
     Flipping card, e-mail, projects and general hacking by Phil Ewels.
 -->
 <html>
-
-<head>
+  <head>
     <title>Paul Derbyshire</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9
+      ]><link rel="stylesheet" href="assets/css/ie9.css"
+    /><![endif]-->
+    <!--[if lte IE 8
+      ]><link rel="stylesheet" href="assets/css/ie8.css"
+    /><![endif]-->
     <noscript>
-        <link rel="stylesheet" href="assets/css/noscript.css" />
+      <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
-</head>
+  </head>
 
-<body class="is-loading">
-
+  <body class="is-loading">
     <!-- Wrapper -->
     <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <div class="front">
+          <header>
+            <span class="avatar"
+              ><img
+                src="images/paul_derbyshire.jpeg"
+                alt="Paul Derbyshire"
+                width="122"
+                height="122"
+            /></span>
+            <h1>Paul Derbyshire</h1>
+            <p>Technology Leader, The Netherlands</p>
+          </header>
 
-        <!-- Main -->
-        <div id="main">
-            <div class="front">
-                <header>
-                    <span class="avatar"><img src="images/paul_derbyshire.jpeg" alt="Paul Derbyshire" width="122"
-                            height="122" /></span>
-                    <h1>Paul Derbyshire</h1>
-                    <p>Head of Software Engineering in Den Bosch, The Netherlands</p>
-                </header>
+          <nav>
+            <a href="#projects" class="flipper">Projects</a>
+            <a href="#publications" class="flipper">Publications</a>
+            <a href="#contact" class="flipper">Contact Me</a>
+          </nav>
 
-                <nav>
-                    <a href="#projects" class="flipper">Projects</a>
-                    <a href="#publications" class="flipper">Publications</a>
-                    <a href="#contact" class="flipper">Contact Me</a>
-                </nav>
-
-                <footer>
-                    <ul class="icons">
-                        <li><a href="https://github.com/proddy/" class="fa-github">GitHub: @proddy</a></li>
-                        <li><a href="https://www.linkedin.com/in/pderbyshire/" class="fa-linkedin">LinkedIn</a></li>
-                        <li><a href="http://twitter.com/pderbyshire" class="fa-twitter">Twitter: @pderbyshire</a></li>
-                    </ul>
-                    <span id="linkHoverText"></span>
-                </footer>
-
-            </div>
-            <div class="back">
-                <section id="projects">
-                    <h2>Projects</h2>
-                    <div class="card_wrapper">
-                        <ul class="project_list">
-                            <li>
-                                <a href="https://emsesp.github.io/docs/#/" target="_blank">
-                                    <img src="images/ems-esp.png" alt="EMS-ESP" />
-                                    EMS-ESP
-                                </a>
-                                <ul>
-                                    <li>Open-source firmware for the Espressif ESP8266 and ESP32 microcontroller that
-                                        communicates with EMS (Energy Management System) based equipment from
-                                        manufacturers like Bosch, Buderus, Nefit, Junkers, Worcester and Sieger.</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <a href="#" class="button flipper">Back</a>
-                </section>
-
-                <section id="publications" style="display:none;">
-                    <h2>Publications</h2>
-                    <div class="card_wrapper">
-                        <h3>2019</h3>
-                        <li><a href="P1">P1</a></li>
-                        <h3>2020</h3>
-                        <li><a href="P2">P2</a>
-                        </li>
-                        <li>P2</li>
-                        <h3>2021</h3>
-                    </div>
-                    <a href="#" class="button flipper">Back</a>
-                </section>
-
-                <section id="contact" style="display:none;">
-                    <h2>Get In Touch</h2>
-                    <div id="contact-form">
-                        <form action="https://formspree.io/xpzkwlbj" method="POST">
-                            <input type="hidden" name="_subject" value="Contact request from personal website" />
-                            <input type="email" name="_replyto" placeholder="Your email" required>
-                            <p></p>
-                            <textarea name="message" placeholder="Type your message" required></textarea>
-                            <button type="submit">Send</button>
-                        </form>
-                    </div>
-                </section>
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <footer id="footer">
-            <ul class="copyright">
-                <li><a href="https://github.com/proddy/derbyshire.nl/">See source code</a></li>
-                <li>Original Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          <footer>
+            <ul class="icons">
+              <li>
+                <a href="https://github.com/proddy/" class="fa-github"
+                  >GitHub: @proddy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/pderbyshire/"
+                  class="fa-linkedin"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a href="http://twitter.com/pderbyshire" class="fa-twitter"
+                  >Twitter: @pderbyshire</a
+                >
+              </li>
             </ul>
-        </footer>
+            <span id="linkHoverText"></span>
+          </footer>
+        </div>
+        <div class="back">
+          <section id="projects">
+            <h2>Projects</h2>
+            <div class="card_wrapper">
+              <ul class="project_list">
+                <li>
+                  <a href="https://emsesp.github.io/docs/#/" target="_blank">
+                    <img src="images/ems-esp.png" alt="EMS-ESP" />
+                    EMS-ESP
+                  </a>
+                  <ul>
+                    <li>
+                      Open-source firmware for the Espressif ESP8266 and ESP32
+                      microcontroller that communicates with EMS (Energy
+                      Management System) based equipment from manufacturers like
+                      Bosch, Buderus, Nefit, Junkers, Worcester and Sieger.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="button flipper">Back</a>
+          </section>
 
+          <section id="publications" style="display: none">
+            <h2>Publications</h2>
+            <div class="card_wrapper">
+              <h3>2019</h3>
+              <li><a href="P1">P1</a></li>
+              <h3>2020</h3>
+              <li><a href="P2">P2</a></li>
+              <li>P2</li>
+              <h3>2021</h3>
+            </div>
+            <a href="#" class="button flipper">Back</a>
+          </section>
+
+          <section id="contact" style="display: none">
+            <h2>Get In Touch</h2>
+            <div id="contact-form">
+              <form action="https://formspree.io/xpzkwlbj" method="POST">
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="Contact request from personal website"
+                />
+                <input
+                  type="email"
+                  name="_replyto"
+                  placeholder="Your email"
+                  required
+                />
+                <p></p>
+                <textarea
+                  name="message"
+                  placeholder="Type your message"
+                  required
+                ></textarea>
+                <button type="submit">Send</button>
+              </form>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="copyright">
+          <li>
+            <a href="https://github.com/proddy/derbyshire.nl/"
+              >See source code</a
+            >
+          </li>
+          <li>Original Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
     </div>
 
     <!-- Scripts -->
-    <!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+    <!--[if lte IE 8
+      ]><script src="assets/js/respond.min.js"></script
+    ><![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="assets/js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
